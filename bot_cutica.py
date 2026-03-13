@@ -169,7 +169,7 @@ def main():
 
             update_weather_if_new_day()
 
-            if text.lower() == "!погода тест (цить куриная голова)":
+            if text.lower() == "Цить, погода":
                 send_message(vk, peer_id, f"Текущая погода:\n\n{current_weather}")
 
 
